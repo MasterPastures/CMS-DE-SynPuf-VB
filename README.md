@@ -12,5 +12,5 @@ The Excel files containing the inpatient claim data dating from 2008 to 2010 liv
 The EDA of the beneficiary summary and inpatient claims data lives here.
 
 ## scripts
-The script lives at CMS-DE-SynPuf-VB/scripts/download_cms_data.py. You can execute it by running `python download_cms_data.py` from the command line or a terminal.
+The script lives at `CMS-DE-SynPuf-VB/scripts/download_cms_data.py`. You can execute it by running `python download_cms_data.py` from the command line or a terminal. `NOTE:` the 2010 beneficiary summary data for sample 1 is missing because the associated hyperlink is broken; the script will therefore only download 19 files instead of 20 within the `CMS-DE-SynPuf-VB/downloads/beneficiary_summaries/2010` directory.
 
